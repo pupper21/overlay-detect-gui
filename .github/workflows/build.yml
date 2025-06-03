@@ -19,7 +19,7 @@ jobs:
         run: g++ overlay_gui.cpp -o overlay_gui.exe -lpsapi -lgdi32 -static
 
       - name: Upload .exe
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@c84a6fb479e1b8d8f22560d3a6a113a16c7b9b47
         with:
           name: OverlayDetectGUI
           path: ./overlay_gui.exe
