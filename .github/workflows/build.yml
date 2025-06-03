@@ -18,7 +18,7 @@ jobs:
       - name: Compile GUI app
         run: g++ overlay_gui.cpp -o overlay_gui.exe -lpsapi -lgdi32 -static
 
-      - name: Upload .exe
+      - name: Upload.exe
         uses: actions/upload-artifact@v2
         with:
           name: OverlayDetectGUI
